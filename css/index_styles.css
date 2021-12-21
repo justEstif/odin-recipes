@@ -1,0 +1,32 @@
+.title{
+    text-align: center;
+}
+h1.title{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: lighter;
+}
+h3{
+    color:rgb(51, 151, 26);
+    font-size: 40;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+body {
+    height: 10em;
+    position: relative 
+}
+body {
+    margin: 0;
+    background-image: url(../img/bg.jpg);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    opacity: 0.75;
+}
+body span{
+    background-color:rgba(0, 0, 128, 0.541);
+}

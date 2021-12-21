@@ -1,0 +1,23 @@
+.title{
+    text-align: left;
+}
+h1.title{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: lighter;
+}
+h3{
+    color:rgb(8, 139, 133)
+}
+.list{
+    color:rgb(51, 151, 26);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+li{
+    color:rgb(105, 93, 173)
+}
+body{
+    background-color: oldlace;
+}
