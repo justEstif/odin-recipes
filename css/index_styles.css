@@ -1,32 +1,28 @@
-.title{
-    text-align: center;
-}
-h1.title{
-    color:red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-    font-weight: lighter;
-}
-h3{
-    color:rgb(51, 151, 26);
-    font-size: 40;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}
 body {
-    height: 10em;
-    position: relative 
-}
-body {
-    margin: 0;
-    background-image: url(../img/bg.jpg);
+    /* margin: 0; */
+    border: 2px solid lightblue;
+    background-image: url(../img/bg.png);
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%); 
-    opacity: 0.75;
 }
-body span{
-    background-color:rgba(0, 0, 128, 0.541);
+
+.title {
+    background-color: darkslategray;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: lightseagreen;
+    text-align: center;
+    border: 3px solid blue;
+    padding: 4px;
+    margin: 40px
+}
+.title.odin {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    margin-bottom: 70;
+    color: rgb(36, 189, 36);
+    opacity: 4;
 }

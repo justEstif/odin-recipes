@@ -1,23 +1,28 @@
-.title{
-    text-align: left;
-}
-h1.title{
-    color:red;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 40px;
-    font-weight: lighter;
-}
-h3{
-    color:rgb(8, 139, 133)
-}
-.list{
-    color:rgb(51, 151, 26);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}
-li{
-    color:rgb(105, 93, 173)
-}
 body{
-    background-color: oldlace;
+   background-color: yellow;
+}
+.title{
+    padding: 10px;
+    margin: 4px;
+}
+.title.krabby{
+    margin: 8px;
+    font-size: 24px;
+    padding: 5px;
+    text-align: center; 
+}
+.move{
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    padding-right: 5px;
+}
+
+.sublist{
+    color: rgb(4, 25, 46);
+    display: inline-block;
+}
+
+.list{
+    color: red;
 }
